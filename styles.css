@@ -121,4 +121,10 @@ a {
   color: var(--fg);
   font-weight: bold;
   text-decoration: none;
+}
+
+.repo-link a {
+  color: var(--fg);
+  font-weight: bold;
+  text-decoration: none;
 } 
