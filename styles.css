@@ -109,4 +109,16 @@ body {
   .project:hover {
     background: #111;
   }
+}
+
+a {
+  color: var(--fg);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-tagline a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
 } 
