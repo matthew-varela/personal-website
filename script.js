@@ -3,7 +3,7 @@
  *  ===========================*/
 const projects = [
   {
-    title: "Mattnuck Sandwich", // Example entry
+    title: "Projects", // Example entry
     description: "Source code and design notes for this portfolio site.",
     github: "https://github.com/matthew-varela/personal-website",
   },
