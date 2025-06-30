@@ -8,9 +8,9 @@ const projects = [
     github: "https://github.com/matthew-varela/personal-website",
   },
   {
-    title: "Sushi Roll",
+    title: "Some ML Stuff",
     description: "An exploration of machine learning techniques for time-series data.",
-    github: "https://github.com/your-username/cool-ml-project",
+    github: "https://github.com/matthew-varela/profit_curve",
   },
   // Add more projects as desired ⬆️
 ];
