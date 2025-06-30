@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Mattnuck Sandwich", // Example entry
     description: "Source code and design notes for this portfolio site.",
-    github: "https://github.com/your-username/personal-website",
+    github: "https://github.com/matthew-varela/personal-website",
   },
   {
     title: "Sushi Roll",
