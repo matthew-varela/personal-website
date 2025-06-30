@@ -112,13 +112,13 @@ body {
 }
 
 a {
-  color: var(--fg);
+  color: var(--bg);
   font-weight: bold;
   text-decoration: none;
 }
 
 .site-tagline a {
-  color: var(--bg);
+  color: var(--fg);
   font-weight: bold;
   text-decoration: none;
 } 
