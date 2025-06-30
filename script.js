@@ -3,12 +3,12 @@
  *  ===========================*/
 const projects = [
   {
-    title: "Personal Website", // Example entry
+    title: "Mattnuck Sandwich", // Example entry
     description: "Source code and design notes for this portfolio site.",
     github: "https://github.com/your-username/personal-website",
   },
   {
-    title: "Cool ML Project",
+    title: "Sushi Roll",
     description: "An exploration of machine learning techniques for time-series data.",
     github: "https://github.com/your-username/cool-ml-project",
   },
