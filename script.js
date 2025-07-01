@@ -3,16 +3,29 @@
  *  ===========================*/
 const projects = [
   {
-    title: "Projects", // Example entry
-    description: "Source code and design notes for this portfolio site.",
-    github: "https://github.com/matthew-varela/personal-website",
+    title: "ClubHub",
+    // TODO: Add a concise, engaging description of ClubHub.
+    description: "Description coming soon.",
+    github: "https://github.com/matthew-varela/show_clubhub",
   },
   {
-    title: "Some ML Stuff",
-    description: "An exploration of machine learning techniques for time-series data.",
+    title: "Profit Curve",
+    // TODO: Write a short overview of the Profit Curve project.
+    description: "Description coming soon.",
     github: "https://github.com/matthew-varela/profit_curve",
   },
-  // Add more projects as desired ⬆️
+  {
+    title: "Money Talks (STATS 401 Final Project)",
+    // TODO: Summarize the Money Talks project and its goals.
+    description: "Description coming soon.",
+    github: "https://github.com/matthew-varela/money_talks",
+  },
+  {
+    title: "Population Projection (DATASCI 306)",
+    // TODO: Provide details about the population projection analysis.
+    description: "Description coming soon.",
+    github: "https://github.com/matthew-varela/datasci306_population_projection",
+  },
 ];
 
 const list = document.getElementById("projects");
