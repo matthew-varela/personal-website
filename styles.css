@@ -127,4 +127,18 @@ a {
   color: var(--fg);
   font-weight: bold;
   text-decoration: none;
+}
+
+nav a {
+  color: var(--bg);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--fg);
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--accent);
 } 
