@@ -5,6 +5,7 @@
   --font-head: "JetBrains Mono", monospace;
   --font-body: 'VT323', monospace;
   --gap: 3rem;
+  --project-title: #bb00ff; /* neon purple for light mode */
 }
 /* font-family: 'Courier New', Courier, monospace; */
 /* Reset */
@@ -77,7 +78,7 @@ body {
 .project-title {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #39ff14;
+  color: var(--project-title);
 }
 
 .project-desc {
@@ -106,6 +107,7 @@ body {
     --fg: #f0f0f0;
     --bg: #000;
     --accent: #ff477e;
+    --project-title: #39ff14; /* neon green for dark mode */
   }
 
   .project:hover {
