@@ -6,27 +6,27 @@ const projects = [
     title: "ClubHub",
     // TODO: Add a concise, engaging description of ClubHub.
     description: "Description coming soon.",
-    github: "https://github.com/matthew-varela/show_clubhub",
+    github: "https://github.com/matthew-varela/show-clubhub",
   },
   {
     title: "Profit Curve",
     // TODO: Write a short overview of the Profit Curve project.
     description: "Description coming soon.",
-    github: "https://github.com/matthew-varela/profit_curve",
+    github: "https://github.com/matthew-varela/profit-curve",
   },
   {
     title: "Money Talks",
     subtitle: "Applied Statistical Methods II (STATS 401) · Final Project",
     // TODO: Summarize the Money Talks project and its goals.
     description: "Description coming soon.",
-    github: "https://github.com/matthew-varela/money_talks",
+    github: "https://github.com/matthew-varela/money-talks",
   },
   {
     title: "Population Projection",
     subtitle: "Intro to Statistical Computing (DATASCI 306) · Final Project",
     // TODO: Provide details about the population projection analysis.
     description: "Description coming soon.",
-    github: "https://github.com/matthew-varela/datasci306_population_projection",
+    github: "https://github.com/matthew-varela/population-projection",
   },
 ];
 
