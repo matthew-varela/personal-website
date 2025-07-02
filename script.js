@@ -5,27 +5,27 @@ const projects = [
   {
     title: "ClubHub",
     // TODO: Add a concise, engaging description of ClubHub.
-    description: "Description coming soon.",
+    description: "A campus-club discovery engine built from the ground up. ClubHub lets Wolverines browse every registered student org, get instant matches based on interests, and track attendance metrics. Dual Java / Python micro-services power a snappy React UI, while Docker and GitHub Actions keep deployments effortless.",
     github: "https://github.com/matthew-varela/show-clubhub",
   },
   {
     title: "Profit Curve",
     // TODO: Write a short overview of the Profit Curve project.
-    description: "Description coming soon.",
+    description: "Profit Curve ingests SEC filings and price data, distills 200+ financial indicators, and feeds them into a TensorFlow model that forecasts two-month excess returns. The modular ETL-to-ML pipeline is fully automated; daily cron runs refresh features, retrain, and push signals to an S3-backed API.",
     github: "https://github.com/matthew-varela/profit-curve",
   },
   {
     title: "Money Talks",
     subtitle: "Applied Statistical Methods II (STATS 401) · Final Project",
     // TODO: Summarize the Money Talks project and its goals.
-    description: "Using FIFA player attributes to predict player salaries.",
+    description: "In this applied-statistics capstone, we modeled FIFA 23 player wages using a log-linear regression enriched with footedness interactions. The model explains a third of salary variance and reveals that creative skills—passing and dribbling—are the true pay drivers, not raw pace.",
     github: "https://github.com/matthew-varela/money-talks",
   },
   {
     title: "Population Projection",
     subtitle: "Intro to Statistical Computing (DATASCI 306) · Final Project",
     // TODO: Provide details about the population projection analysis.
-    description: "Description coming soon.",
+    description: "Our five-person data-story dug into the UN’s 2024 population revision. After rigorous cleaning we replicated official charts, added 12 novel visual insights, and built a baseline forecast challenging the UN median, spotlighting how fertility decline could keep 2100 population below 9 B.",
     github: "https://github.com/matthew-varela/population-projection",
   },
 ];
