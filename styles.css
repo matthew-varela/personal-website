@@ -77,6 +77,7 @@ body {
 .project-title {
   font-size: 1.75rem;
   font-weight: 600;
+  color: #39ff14;
 }
 
 .project-desc {
@@ -236,4 +237,23 @@ nav a:hover {
   .about-content {
     flex-direction: column;
   }
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+}
+
+.highlight-project {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.highlight-list {
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+.highlight-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
 } 

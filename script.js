@@ -18,7 +18,7 @@ const projects = [
     title: "Money Talks",
     subtitle: "Applied Statistical Methods II (STATS 401) · Final Project",
     // TODO: Summarize the Money Talks project and its goals.
-    description: "Description coming soon.",
+    description: "Using FIFA player attributes to predict player salaries.",
     github: "https://github.com/matthew-varela/money-talks",
   },
   {
