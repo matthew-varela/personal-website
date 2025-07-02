@@ -149,4 +149,34 @@ nav a {
 
 nav a:hover {
   background-color: var(--accent);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--gap) 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headshot {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-right: 1.5rem;
+  margin-bottom: 0;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.about-header .headshot {
+  margin: 0;
 } 
