@@ -179,4 +179,10 @@ nav a:hover {
 
 .about-header .headshot {
   margin: 0;
+}
+
+.project-subtitle {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-top: -0.5rem;
 } 

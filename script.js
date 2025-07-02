@@ -15,13 +15,15 @@ const projects = [
     github: "https://github.com/matthew-varela/profit_curve",
   },
   {
-    title: "Money Talks (STATS 401 Final Project)",
+    title: "Money Talks",
+    subtitle: "Applied Statistical Methods II (STATS 401) · Final Project",
     // TODO: Summarize the Money Talks project and its goals.
     description: "Description coming soon.",
     github: "https://github.com/matthew-varela/money_talks",
   },
   {
-    title: "Population Projection (DATASCI 306)",
+    title: "Population Projection",
+    subtitle: "Intro to Statistical Computing (DATASCI 306) · Final Project",
     // TODO: Provide details about the population projection analysis.
     description: "Description coming soon.",
     github: "https://github.com/matthew-varela/datasci306_population_projection",
@@ -37,6 +39,14 @@ projects.forEach((p) => {
   const title = document.createElement("h2");
   title.className = "project-title";
   title.textContent = p.title;
+
+  // Optional subtitle
+  if (p.subtitle) {
+    const subtitle = document.createElement("p");
+    subtitle.className = "project-subtitle";
+    subtitle.textContent = p.subtitle;
+    card.appendChild(subtitle);
+  }
 
   const desc = document.createElement("p");
   desc.className = "project-desc";
